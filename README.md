@@ -8,3 +8,5 @@ Testar om Lighthouse CI körs igen ✅
 Test igen. Redigerade lighthouse
 
 Test igen
+
+Test
