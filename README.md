@@ -6,3 +6,5 @@ Testar om Lighthouse CI körs igen ✅
 🔁 Testar Telac.se
 
 Test igen. Redigerade lighthouse
+
+Test igen
