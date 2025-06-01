@@ -5,7 +5,38 @@
       "numberOfRuns": 1
     },
     "assert": {
-      "budgetsFile": "performance_budget.json"
+      "budgets": [
+        {
+          "resourceSizes": [
+            {
+              "resourceType": "script",
+              "budget": 125
+            },
+            {
+              "resourceType": "image",
+              "budget": 300
+            },
+            {
+              "resourceType": "stylesheet",
+              "budget": 50
+            }
+          ],
+          "timings": [
+            {
+              "metric": "first-contentful-paint",
+              "budget": 1800
+            },
+            {
+              "metric": "largest-contentful-paint",
+              "budget": 2500
+            },
+            {
+              "metric": "cumulative-layout-shift",
+              "budget": 0.1
+            }
+          ]
+        }
+      ]
     }
   }
 }
